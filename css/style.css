@@ -350,6 +350,7 @@ ul {
     background-color: #e1e1e1;
     background-repeat: no-repeat;
     background-position: center center;
+    cursor: pointer;
 }
 
 .vk {
