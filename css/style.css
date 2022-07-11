@@ -59,13 +59,17 @@ ul {
     background-size: cover;
 }
 
+
 .slider {
     position: relative;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
+
 .slider__list {
+
     padding: 100px 0 80px 0;
 }
 
@@ -101,7 +105,7 @@ ul {
     display: flex;
     position: absolute;
     left: 50%;
-    bottom:82px;
+    bottom: 82px;
     transform: translateX(-50%);
 }
 
@@ -110,7 +114,8 @@ ul {
     width: 25px;
     height: 25px;
 }
-.controls__item input[type="radio"] + .controls__item-indicator{
+
+.controls__item input[type="radio"] + .controls__item-indicator {
     display: block;
     width: 25px;
     height: 25px;
@@ -121,13 +126,55 @@ ul {
     border-radius: 50%;
     cursor: pointer;
 }
-.controls__item + .controls__item{
+
+.controls__item + .controls__item {
     margin-left: 17px;
 }
-.controls__item input[type="radio"]:checked + .controls__item-indicator{
+
+.controls__item input[type="radio"]:checked + .controls__item-indicator {
     width: 25px;
     height: 25px;
     background-image: url("../css/img/icon/radio-on.svg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 83px 0;
+}
+.advantages__item{
+    max-width: 300px;
+}
+
+.advantages__item-button-pink {
+    background-color: #fb565a;
+}
+
+.advantages__item-button-green {
+    background-color: #00ca74;
+}
+
+.advantages__item-button-yellow {
+    background-color: #efc849;
+}
+
+.advantages__item-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.advantages__item-title {
+font-family: "Roboto Bold", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+.advantages__item-text{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 38px;
 }
