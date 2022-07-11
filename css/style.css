@@ -145,7 +145,8 @@ ul {
     gap: 100px;
     padding: 83px 0;
 }
-.advantages__item{
+
+.advantages__item {
     max-width: 300px;
 }
 
@@ -167,30 +168,76 @@ ul {
 }
 
 .advantages__item-title {
-font-family: "Roboto Bold", "Arial", sans-serif;
+    font-family: "Roboto Bold", "Arial", sans-serif;
     font-size: 24px;
     line-height: 77px;
     text-transform: uppercase;
 }
-.advantages__item-text{
+
+.advantages__item-text {
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 38px;
 }
-.divider{
+
+.divider {
     width: 100%;
     height: 2px;
     background-color: #eeeeee;
 }
-.logos{
+
+.logos {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px 30px;
 }
-.logos__img{
+
+.logos__img {
     max-width: 200px;
     object-fit: contain;
+}
+
+.description {
+    padding: 30px 0 80px 0;
+}
+
+.description__list {
+    display: flex;
+    gap: 140px;
+}
+
+.description__indicators {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.description__indicators-title {
+    display: inline-block;
+    font-family: "Roboto Bold", "Arial", sans-serif;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.description__indicators-text {
+    font-family: "Roboto", "Arail", sans-serif;
+    font-size: 16px;
+    color: #283136;
+}
+.description__item{
+    min-width: 360px;
+}
+.tac{
+    text-align: center;
+}
+.description__item-subtitle{
+    font-family: "Roboto", "Arail", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    line-height: 70px;
 }
